@@ -5,8 +5,8 @@ import { useState } from 'react';
 
 const NameInput = ({ defaultValue }) => {
   // 🦁 Change la valeur par défaut en récupérant la valeur stockée dans le localStorage
-  // 💡 JSON.parse(localStorage.getItem(key))
-  // 🦁 Attention il faut vérifier que localStorage.getItem(key) n'est pas null sinon tu vas avoir une erreur !
+  // 💡 JSON.parse(localStorage.getItem(NAME_KEY))
+  // 🦁 Attention il faut vérifier que localStorage.getItem(NAME_KEY) n'est pas null sinon tu vas avoir une erreur !
   // Si il est vide, tu peux utiliser la valeur par défaut
   const [name, setName] = useState(defaultValue);
 
